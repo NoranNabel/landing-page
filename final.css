@@ -1,0 +1,57 @@
+:root {
+    --background-blue: rgb(87, 62, 230);
+    --background-purple: rgb(194, 43, 231);
+    --background-white: white;
+    --border-radius: 50px;
+}
+
+.navbar {
+    background: linear-gradient(90deg, var(--background-blue), var(--background-purple)) !important;
+}
+
+.container {
+    background: linear-gradient(90deg, var(--background-blue), var(--background-purple)) !important;
+    width: 100% !important;
+    height: 100vh;
+    background-size: 100%;
+    max-width: 2400px !important;
+}
+
+.card-img-top:hover{
+    opacity:0.7 ;
+    transition:0.5s ;
+    cursor: pointer;
+}
+
+.container4{
+    background-color: white !important;
+}
+
+input ,textarea{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+form button{
+    width:400px ;
+    background: linear-gradient(90deg, var(--background-blue), var(--background-purple));
+    cursor: pointer !important;
+}
+
+.bi{
+    color: rgb(87, 62, 230);
+
+}
+.container6{
+    width:100% ;
+}
+
+.containerF{
+
+ background-color: rgb(124, 121, 121);
+ color: white;
+ width: 1349px;
+}
+
+.container7  .row{
+   width:100% ;
+}
