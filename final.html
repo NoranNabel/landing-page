@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Start Bootstrap</title>
+    <title>ArtWeb</title>
     <link rel="icon" type="image/x-icon" href="icon.png">
     <link rel="stylesheet" href="final.css">
     <link rel="stylesheet" href="./fontawesome-free-6.2.1-web/fontawesome-free-6.2.1-web/css/all.min.css">
@@ -27,7 +27,8 @@
             <div class="collapse navbar-collapse " id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mx-5 mb-lg-0 position-absolute top-1 start-50 ">
                     <li class="nav-item">
-                        <a class="nav-link text-white me-2  fs-5 fw-semibold " aria-current="page" href="#porto">Portfolio</a>
+                        <a class="nav-link text-white me-2  fs-5 fw-semibold " aria-current="page"
+                            href="#porto">Portfolio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white me-2  fs-5 fw-semibold " href="#serv1">Services</a>
@@ -60,7 +61,7 @@
         </div>
     </nav>
 
-    <div class="container mb-5">
+    <div class="container mb-5" style="height: 100vh;">
         <div class="row">
             <div class="text-center ">
                 <img src="./avataaars.svg" style="width:300px;" class="col-sm-5 mt-5 pt-5" alt="...">
@@ -138,7 +139,7 @@
                     <div class="row gx-4 gx-lg-5 mt-2">
 
                         <div class="col-lg-3 bodyCard col-md-6 text-center">
-                            <div class="mt-5">
+                            <div class="mt-5 mb-5">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="50" height="100" fill="currentColor"
                                     class="bi bi-gem " viewBox="0 0 16 16">
                                     <path
@@ -162,7 +163,7 @@
                         </div>
 
                         <div class="col-lg-3 bodyCard col-md-6 text-center">
-                            <div class="mt-5">
+                            <div class="mt-5 mb-5">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="50" height="100" fill="currentColor"
                                     class="bi bi-globe" viewBox="0 0 16 16">
                                     <path
@@ -174,7 +175,7 @@
                         </div>
 
                         <div class="col-lg-3 bodyCard col-md-6 text-center">
-                            <div class="mt-5">
+                            <div class="mt-5 mb-5">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="50" height="100" fill="currentColor"
                                     class="bi bi-heart-fill " viewBox="0 0 16 16">
                                     <path fill-rule="evenodd"
@@ -190,82 +191,160 @@
         </div>
     </div>
 
+    <div class="container mt-5 p-5" id="aboutt">
+        <p class="p fs-1 text text-white fw-bolder pt-5 text-center">ABOUT US</p>
+        <hr class="title w-25 mb-5 mx-auto" />
 
-    <div class="container mt-5 mb-5" style="height:130vh ;" id="aboutt">
-        <div class="row" style="width:100% ;">
-            <div class="text-center mb-5">
-
-                <p class="p mt-5 fs-1 text text-white fw-bolder pt-3">ABOUT US</p>
-                <hr class="title w-25 mx-auto" />
-
-                <label class="p mt-5 fs-4 text text-white text-center fw-bolder me-5" style="width:400px">Freelancer is a free
-                    bootstrap theme created by Start Bootstrap. The download includes the complete source files
-                    including HTML, CSS, and JavaScript as well </label>
-                <label class="p mt-5 fs-4 text text-white fw-bolder ms-5" style="width:400px">You can create your own
-                    custom avatar for the masthead, change the icon in the dividers, and add your email address to the
-                    contact form to make it fully functional!</label>
+        <div class="row mx-auto m-5 pt-3">
+            <div class="col-sm-6 mb-3 mb-sm-0 aboutCard">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-text fs-4 text-center p-3">You can create your own
+                            custom avatar for the masthead, change the icon in the dividers, and add your email
+                            address to the contact form to make it fully functional!</p>
+                    </div>
+                </div>
             </div>
-
-            <div class="text-center mt-5 mb-5">
-                <button type="button" class="btn btn-outline-light btn-lg">JOIN US</button>
+            <div class="col-sm-6 aboutCard">
+                <div class="card">
+                    <div class="card-body aboutt">
+                        <p class="card-text fs-4 text-center p-3">You can create your own
+                            custom avatar for the masthead, change the icon in the dividers, and add your email
+                            address to the contact form to make it fully functional!</p>
+                    </div>
+                </div>
             </div>
         </div>
+        <div class="text-center mt-5 mb-5">
+            <button type="button" class="btn btn-outline-light btn-lg mb-5">JOIN US</button>
+        </div>
+
     </div>
 
 
-    <section class="page-section  mb-5 mt-5 " id="team">
+    <section class="page-section p-4 mb-5 mt-5" id="team">
         <div class="container6 pt-4">
-            <div class="text-center">
+            <div class="text-center mb-5">
                 <h2 class="section-heading text-uppercase pt-5">Our Amazing Team</h2>
                 <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
             </div>
-            <div class="row ms-5 mt-3 mb-4" style="width:1300px ;">
 
-                <div class="col-lg-4 mt-5 ms-5">
-                    <div class="team-member">
-                        <img class=" rounded-circle" style="width:250px ; height:250px;" src="1.jpg" alt="..." />
-                        <h4 class="h4 ms-5">Parveen Anand</h4>
-                        <p class="text-muted ms-5">Lead Designer</p>
-                        <a class="btn btn-dark btn-social  ms-5" href="#!" aria-label="Parveen Anand Twitter Profile"><i
-                                class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social  " href="#!" aria-label="Parveen Anand Facebook Profile"><i
-                                class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social " href="#!" aria-label="Parveen Anand LinkedIn Profile"><i
-                                class="fab fa-linkedin-in"></i></a>
+
+            <div class="d-flex align-items-center mx-auto justify-content-evenly">
+
+                <div class="d-flex flex-column mb-3">
+                    <div class="p-2">
+                        <img src="1.jpg" class="img-thumbnail team rounded-circle" style="width: 250px;" alt="...">
+                    </div>
+                    <div class="p-2">
+                        <h5 class="text-center">Parveen Anand</h5>
+                    </div>
+                    <div class="">
+                        <h6 class="text-center">Lead Designer</h6>
+                    </div>
+                    <div class="d-flex flex-row mb-3 justify-content-center">
+                        <div class="p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="black"
+                                class="bi bi-twitter" viewBox="0 0 16 16">
+                                <path
+                                    d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                            </svg>
+                        </div>
+                        <div class="p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="black"
+                                class="bi bi-facebook" viewBox="0 0 16 16">
+                                <path
+                                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                            </svg>
+                        </div>
+                        <div class="p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="black"
+                                class="bi bi-linkedin" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                            </svg>.
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-4 mt-5 ">
-                    <div class="team-member">
-                        <img class=" rounded-circle" style="width:250px ; height:250px;" src="2.jpg" alt="..." />
-                        <h4 class="h4 ms-5">Diana Petersen</h4>
-                        <p class="text-muted ms-5">Lead Marketer</p>
-                        <a class="btn btn-dark btn-social  ms-5" href="#!"
-                            aria-label="Diana Petersen Twitter Profile"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social " href="#!" aria-label="Diana Petersen Facebook Profile"><i
-                                class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social " href="#!" aria-label="Diana Petersen LinkedIn Profile"><i
-                                class="fab fa-linkedin-in"></i></a>
+
+                <div class="d-flex flex-column mb-3">
+                    <div class="p-2">
+                        <img src="2.jpg" class="img-thumbnail team rounded-circle" style="width: 250px;" alt="...">
+                    </div>
+                    <div class="p-2">
+                        <h5 class="text-center">Diana Petersen</h5>
+                    </div>
+                    <div class="">
+                        <h6 class="text-center">Lead Marketer</h6>
+                    </div>
+                    <div class="d-flex flex-row mb-3 justify-content-center">
+                        <div class="p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="black"
+                                class="bi bi-twitter" viewBox="0 0 16 16">
+                                <path
+                                    d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                            </svg>
+                        </div>
+                        <div class="p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="black"
+                                class="bi bi-facebook" viewBox="0 0 16 16">
+                                <path
+                                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                            </svg>
+                        </div>
+                        <div class="p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="black"
+                                class="bi bi-linkedin" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                            </svg>.
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-4 mt-5  mb-5 " style="width:200px ;">
-                    <div class="team-member">
-                        <img class=" rounded-circle" style="width:250px ; height:250px;" src="3.jpg" alt="..." />
-                        <h4 class="h4 ms-5" style="width:135px ;">Larry Parker</h4>
-                        <p class="text-muted ms-5" style="width:135px ;">Lead Developer</p>
-                        <a class="btn btn-dark btn-social ms-5" href="#!" aria-label="Larry Parker Twitter Profile"><i
-                                class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social" href="#!" aria-label="Larry Parker Facebook Profile"><i
-                                class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social" href="#!" aria-label="Larry Parker LinkedIn Profile"><i
-                                class="fab fa-linkedin-in"></i></a>
+
+                <div class="d-flex flex-column mb-3">
+                    <div class="p-2">
+                        <img src="3.jpg" class="img-thumbnail team rounded-circle" style="width: 250px;" alt="...">
+                    </div>
+                    <div class="p-2">
+                        <h5 class="text-center">Larrian Petersen</h5>
+                    </div>
+                    <div class="">
+                        <h6 class="text-center">Lead Developer</h6>
+                    </div>
+                    <div class="d-flex flex-row mb-3 justify-content-center">
+                        <div class="p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="black"
+                                class="bi bi-twitter" viewBox="0 0 16 16">
+                                <path
+                                    d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                            </svg>
+                        </div>
+                        <div class="p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="black"
+                                class="bi bi-facebook" viewBox="0 0 16 16">
+                                <path
+                                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                            </svg>
+                        </div>
+                        <div class="p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="black"
+                                class="bi bi-linkedin" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                            </svg>.
+                        </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
 
+
+
     <div class="container4 mt-3 mb-5 bg-white" id="contact">
-        <div class="row mt-5 " style="width:100% ;">
+        <div class="row mt-5 " style="width:100% ; ">
             <div class="text-center mb-5 mt-5">
 
                 <p class="p mt-5 fs-1 text fw-bolder text-black ">CONTACT US</p>
@@ -329,41 +408,60 @@
     </div>
 
 
-    <footer class="text-center text-lg-start bg-dark text-white mt-5" id="pages">
+    <footer class="text-center text-lg-start bg- text-black mt-5" id="pages">
         <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-            <div class="me-5 d-none d-lg-block">
+            <div class="me-5 mt-2 d-none d-lg-block">
                 <span>Get connected with us on social networks:</span>
             </div>
 
-            <div>
-                <a href="" class="me-4 text-reset">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-                <a href="" class="me-4 text-reset">
-                    <i class="fab fa-twitter"></i>
-                </a>
-                <a href="" class="me-4 text-reset">
-                    <i class="fab fa-google"></i>
-                </a>
-                <a href="" class="me-4 text-reset">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="" class="me-4 text-reset">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="" class="me-4 text-reset">
-                    <i class="fab fa-github"></i>
-                </a>
+            <div class="d-flex flex-row">
+                <div class="p-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="black" class="bi bi-facebook"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                    </svg>
+                </div>
+                <div class="p-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="black" class="bi bi-linkedin"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                    </svg>
+                </div>
+
+                <div class="p-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="black" class="bi bi-twitter"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                    </svg>
+                </div>
+
+                <div class="p-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="black" class="bi bi-github"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                    </svg>
+                </div>
             </div>
         </section>
-    
+
 
         <section class="">
             <div class="container7 text-center text-md-start ">
                 <div class="row mt-3">
                     <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                        <h6 class="text-uppercase fw-bold mb-4">
-                            <i class="fas fa-gem me-3"></i>Satrt Bootstrap
+                        <h6 class="text-uppercase fs-3 fw-bold mb-4 fst-italic">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="black"
+                                class="bi bi-droplet-half" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M7.21.8C7.69.295 8 0 8 0c.109.363.234.708.371 1.038.812 1.946 2.073 3.35 3.197 4.6C12.878 7.096 14 8.345 14 10a6 6 0 0 1-12 0C2 6.668 5.58 2.517 7.21.8zm.413 1.021A31.25 31.25 0 0 0 5.794 3.99c-.726.95-1.436 2.008-1.96 3.07C3.304 8.133 3 9.138 3 10c0 0 2.5 1.5 5 .5s5-.5 5-.5c0-1.201-.796-2.157-2.181-3.7l-.03-.032C9.75 5.11 8.5 3.72 7.623 1.82z" />
+                                <path fill-rule="evenodd"
+                                    d="M4.553 7.776c.82-1.641 1.717-2.753 2.093-3.13l.708.708c-.29.29-1.128 1.311-1.907 2.87l-.894-.448z" />
+                            </svg>
+                            ArtWeb
                         </h6>
                         <p>
                             Here you can use rows and columns to organize your footer content. Lorem ipsum
@@ -384,9 +482,6 @@
                         <p>
                             <a href="#!" class="text-reset">Vue</a>
                         </p>
-                        <p>
-                            <a href="#!" class="text-reset">Laravel</a>
-                        </p>
                     </div>
 
                     <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
@@ -402,20 +497,30 @@
                         <p>
                             <a href="#!" class="text-reset">Orders</a>
                         </p>
-                        <p>
-                            <a href="#!" class="text-reset">Help</a>
-                        </p>
                     </div>
 
                     <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                         <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-                        <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+                        <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black"
+                                class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                            </svg> New York, NY 10012, US</p>
                         <p>
-                            <i class="fas fa-envelope me-3"></i>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black"
+                                class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
+                            </svg>
                             info@example.com
                         </p>
-                        <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
-                        <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+                        <p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black"
+                                class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                            </svg> + 01 234 567 88
+                        </p>
                     </div>
                 </div>
             </div>
@@ -424,7 +529,7 @@
 
         <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
             © 2021 Copyright:
-            <a class="text-reset fw-bold" href="https://mdbootstrap.com/">StartBootstrap.com</a>
+            <a class="text-reset fw-bold" href="https://mdbootstrap.com/">ArtWeb.com</a>
         </div>
 
     </footer>
